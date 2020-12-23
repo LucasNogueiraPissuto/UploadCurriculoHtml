@@ -1,0 +1,264 @@
+/*Importando Fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap');/*Inter*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&display=swap'); /*Montserrat*/
+
+body
+{
+    background-image: url("C:/Users/Nogueira/Desktop/Curriculo html/imagens/fundo.png");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    background-color: #fff;
+}
+*
+{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+/*Estilização da scroll bar*/
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #5c5c5c;  
+}
+
+/*Estilização da barra de menu*/
+.menubar
+{
+    align-self: center;
+    margin-left:18%;
+    margin-top: 13%;
+    /*width: 1200px;
+    height: 93px;
+    margin-left: 350px;
+    margin-top: 10px;*/
+}
+
+.menu
+{
+    margin-left: 7%;
+    /*left: 425px;*/
+    top: 15px;
+    float: left;
+    padding: 35px;
+    
+    background: #FFA2A2;
+    border-radius: 30px;
+    position: fixed;
+}
+
+.menu ul li
+{
+    display: inline;
+}
+
+.menu ul li a 
+{
+    padding: 30px;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    color: #000;
+}
+
+
+.contato
+{  
+    left: 1129px;
+    top: 15px;
+    float: right;
+    padding: 35px;
+
+    background: #FFFFFF;
+    border: 2px solid #FF6262;
+    border-radius: 30px;
+}
+
+.contato a 
+{
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    color: #FF6262
+}
+
+/*Estilização do Texto central*/
+
+.texto
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-left: 350px;
+    font-weight: 300px;
+    width: 1200px;
+    height: 250px;
+}
+
+.Lucas
+{
+    font-weight: bold;
+}
+
+/*Estilização do enfeite que é aquela linha cinza debaixo "olá, eu sou o Lucas"*/
+
+.enfeite
+{
+    background-color: #DFDDDD;
+    border-radius: 8px;
+    margin-left: 690px;
+    margin-top: 10px;
+    width: 532px;
+    height: 3px;
+}
+
+/*Estilização do "Web devoloper"*/
+
+.webdev
+{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+    margin-left: 840px;
+}
+
+.conteudoCentral
+{
+    margin-top: 150px;
+    
+}
+
+/*Estilização do icone de mouse e da seta*/
+
+#mouse
+{
+    margin-top: 180px;
+    margin-left: 910px;
+}
+
+#seta
+{
+    margin-left: 910px;
+}
+
+/*Conteudo do meio*/
+
+.InfoPessoal
+{
+    background: rgba(91, 181, 250, 0.7);
+    border-radius: 87px;
+    margin-top: 40px;
+    margin-bottom: 250px;
+    margin-left: 100px;
+    margin-right: 100px;
+    -webkit-box-shadow: -1px -4px 30px 0px rgba(47, 50, 50, 0.52);
+    -moz-box-shadow:    -1px -4px 30px 0px rgba(47, 50, 50, 0.52);
+    box-shadow:         -1px -4px 30px 0px rgba(47, 50, 50, 0.52);
+    padding: 50px 170px 100px 170px;
+
+}
+
+.meio p
+{
+    line-height: 33px;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    margin-left: 55%;
+    padding: 50px 0px 100px 0px;
+}
+
+.imagem img
+{
+    margin-top: 70px;
+    border-radius: 50%;
+    width: 450px;
+    height: 400px;
+    float: left;
+}
+
+.InfoPessoal h1
+{
+    color: #fff;
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 100px;
+    text-align: center;
+    font-weight: 700px;
+}
+
+/*Estilizando a parte de objetivo*/
+
+.Objetivo
+{
+    width: 900px;
+    height: auto;
+    margin-left: 100px;
+    float: left;
+}
+
+.Objetivo h1
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 44px;
+    margin-bottom: 30px;
+}
+
+.Objetivo p
+{
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    line-height: 150%;
+}
+
+.imagem2 img
+{
+    float: right;
+    width: 428px;
+    height: 428px;
+    margin-right: 100px;
+}
+
+/*Estilizando as ultimas informações (Conhecimento, Idiomas, Extracurriculares)*/
+
+.ultimos
+{
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: auto;
+    width: auto;
+    float: left;
+}
+
+.quadrado
+{
+    background-color:#fff;
+    width: 550px;
+    height: 450px;
+    border: 3px solid #000;
+    display: inline-block;
+    border-radius: 30px;
+    margin:15px;
+}
+
+.quadrado h3
+{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top:30px;
+}
+
+.quadrado p
+{
+    padding: 50px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    line-height: 150%;
+    font-size: 20px;
+}
