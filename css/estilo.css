@@ -2,17 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap');/*Inter*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&display=swap'); /*Montserrat*/
 
-body
-{
-    background-image: url("C:/Users/Nogueira/Desktop/Curriculo html/imagens/fundo.png");
-    background-size:100% 100%;
-    background-repeat: no-repeat;
-    background-color: #fff;
-}
 *
 {
-    padding: 0%;
-    margin: 0%;
+    padding: 0px;
+    margin: 0px;
 }
 
 
@@ -29,120 +22,68 @@ body
 }
 
 /*Estilização da barra de menu*/
-.menubar
-{
-    align-self: center;
-    margin-left:18%;
-    margin-top: 13%;
-    /*width: 1200px;
-    height: 93px;
-    margin-left: 350px;
-    margin-top: 10px;*/
-}
 
-.menu
+nav ul 
 {
-    margin-left: 7%;
-    /*left: 425px;*/
-    top: 15px;
-    float: left;
-    padding: 35px;
-    
-    background: #FFA2A2;
     border-radius: 30px;
-    position: fixed;
+    margin: 1% 20%;
+    background-color: #FFA1A1;
+    height: 100px;
+    justify-content: space-around;
+    display: flex;
+    list-style: none;
+    align-items: center;
 }
-
-.menu ul li
+nav ul li a 
 {
-    display: inline;
-}
-
-.menu ul li a 
-{
-    padding: 30px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     color: #000;
+    font-size: x-large;
 }
 
-
-.contato
-{  
-    left: 1129px;
-    top: 15px;
-    float: right;
-    padding: 35px;
-
-    background: #FFFFFF;
-    border: 2px solid #FF6262;
-    border-radius: 30px;
-}
-
-.contato a 
+nav ul li a:hover 
 {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-decoration: none;
-    color: #FF6262
+    color: #FFEEBC;
+    font-weight:bold;
 }
 
 /*Estilização do Texto central*/
 
-.texto
+.centro
 {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 60px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
+}
+
+.centro h1
+{
     text-align: center;
-    margin-left: 350px;
-    font-weight: 300px;
-    width: 1200px;
-    height: 250px;
 }
 
-.Lucas
+.centro h4
 {
-    font-weight: bold;
+    margin-top: 1%;
 }
 
-/*Estilização do enfeite que é aquela linha cinza debaixo "olá, eu sou o Lucas"*/
-
-.enfeite
+.enfeite 
 {
-    background-color: #DFDDDD;
-    border-radius: 8px;
-    margin-left: 690px;
-    margin-top: 10px;
-    width: 532px;
-    height: 3px;
-}
-
-/*Estilização do "Web devoloper"*/
-
-.webdev
-{
-    font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
-    margin-top: 30px;
-    margin-left: 840px;
-}
-
-.conteudoCentral
-{
-    margin-top: 150px;
-    
+    border-radius: 10px;
+    width: 700px;
+    border: 2px solid #DFDDDD;
 }
 
 /*Estilização do icone de mouse e da seta*/
 
-#mouse
+#mouse img 
 {
-    margin-top: 180px;
-    margin-left: 910px;
-}
-
-#seta
-{
-    margin-left: 910px;
+    margin:4% 50%;
 }
 
 /*Conteudo do meio*/
@@ -152,9 +93,9 @@ body
     background: rgba(91, 181, 250, 0.7);
     border-radius: 87px;
     margin-top: 40px;
-    margin-bottom: 250px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-bottom: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
     -webkit-box-shadow: -1px -4px 30px 0px rgba(47, 50, 50, 0.52);
     -moz-box-shadow:    -1px -4px 30px 0px rgba(47, 50, 50, 0.52);
     box-shadow:         -1px -4px 30px 0px rgba(47, 50, 50, 0.52);
@@ -162,77 +103,68 @@ body
 
 }
 
-.meio p
-{
-    line-height: 33px;
-    font-size: 22px;
-    font-family: 'Montserrat', sans-serif;
-    color: #fff;
-    margin-left: 55%;
-    padding: 50px 0px 100px 0px;
-}
-
-.imagem img
-{
-    margin-top: 70px;
-    border-radius: 50%;
-    width: 450px;
-    height: 400px;
-    float: left;
-}
-
 .InfoPessoal h1
 {
-    color: #fff;
-    font-size: 60px;
+    font-size: xx-large;
     font-family: 'Montserrat', sans-serif;
-    margin-bottom: 100px;
     text-align: center;
-    font-weight: 700px;
+    margin-bottom: 1.5%;
 }
 
-/*Estilizando a parte de objetivo*/
-
-.Objetivo
+.Pessoal
 {
-    width: 900px;
-    height: auto;
-    margin-left: 100px;
-    float: left;
+    display: flex;
+    align-items: center;
 }
+
+.Pessoal img
+{
+    border-radius: 50%;
+    height: 25%;
+    width: 25%;
+}
+
+.Pessoal p
+{
+    line-height: 30px;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    margin-left: 3%;
+}
+/*Estilizando a parte de objetivo*/
 
 .Objetivo h1
 {
+    font-size: xx-large;
     font-family: 'Montserrat', sans-serif;
-    font-size: 44px;
-    margin-bottom: 30px;
+    margin-left: 5%;
 }
 
 .Objetivo p
 {
+    font-size: 25px;
+    line-height: 37.5px;
     font-family: 'Inter', sans-serif;
-    font-size: 22px;
-    line-height: 150%;
+    margin-left: 5%;
 }
 
-.imagem2 img
+.Objetivo img
 {
-    float: right;
-    width: 428px;
-    height: 428px;
-    margin-right: 100px;
+    height: 350px;
+    width: 350px;
 }
 
+.Flex
+{
+    align-items: center;
+    display: flex;
+}
 /*Estilizando as ultimas informações (Conhecimento, Idiomas, Extracurriculares)*/
 
 .ultimos
 {
-    margin-bottom: 30px;
-    margin-left: 50px;
-    margin-right: 50px;
-    height: auto;
-    width: auto;
-    float: left;
+    justify-content: space-around;
+    display: flex;
 }
 
 .quadrado
@@ -241,9 +173,8 @@ body
     width: 550px;
     height: 450px;
     border: 3px solid #000;
-    display: inline-block;
     border-radius: 30px;
-    margin:15px;
+    margin-bottom: 1.5%;
 }
 
 .quadrado h3
